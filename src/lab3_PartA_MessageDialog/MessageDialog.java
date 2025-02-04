@@ -1,4 +1,4 @@
-package lab3_PartA_MessageDialog;
+package lab3_PartA_MessageDialog; 
 
 import java.awt.EventQueue;
 import javax.swing.JFrame;
