@@ -2,6 +2,7 @@ package lab3_PartA_MessageDialog;
 
 import java.awt.EventQueue;
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 
 
 public class MessageDialog {
@@ -29,6 +30,8 @@ public class MessageDialog {
 	 */
 	public MessageDialog() {
 		initialize();
+		String text = "This is a message.";
+				JOptionPane.showMessageDialog(frame, text);
 	}
 
 	/**
