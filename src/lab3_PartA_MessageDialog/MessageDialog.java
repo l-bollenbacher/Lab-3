@@ -30,8 +30,10 @@ public class MessageDialog {
 	 */
 	public MessageDialog() {
 		initialize();
-		String text = "This is a message.";
-				JOptionPane.showMessageDialog(frame, text);
+		String text = "<HTML><i>This</i> is a <br><font color=\"red\">two-line message.";
+		String title = "Attention!";
+		int type = JOptionPane.ERROR_MESSAGE;
+		JOptionPane.showMessageDialog(null, text, title, type);
 	}
 
 	/**
